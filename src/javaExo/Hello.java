@@ -16,6 +16,8 @@ public class Hello {
 		.collect(Collectors.toList())
 		.forEach(System.out::println);
 		
+		// More of feature 2
+		
 		Arrays.asList("a1", "a2", "a3")
 			.stream()
 			.filter(s -> s.startsWith("a"))
