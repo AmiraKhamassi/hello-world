@@ -9,6 +9,7 @@ public class Hello {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hi");
+		//I'm master
 		
 		Stream.of("a1", "a2", "a3")
 		.map(s -> s.substring(1))
