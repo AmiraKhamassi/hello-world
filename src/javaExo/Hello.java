@@ -9,8 +9,7 @@ public class Hello {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hi");
-		//I'm feature 2
-		
+		//I'm master and featuez 2
 		
 		/////////////////////////////////I'm feature 3
 		Stream.of("a1", "a2", "a3")
