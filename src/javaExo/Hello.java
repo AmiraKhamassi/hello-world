@@ -11,7 +11,8 @@ public class Hello {
 		System.out.println("Hi");
 		//I'm master and featuez 2
 		
-		Stream.of("a1", "a2", "a3") //
+		/////////////////////////////////I'm feature 3
+		Stream.of("a1", "a2", "a3")
 		.map(s -> s.substring(1))
 		.collect(Collectors.toList())
 		.forEach(System.out::println);
