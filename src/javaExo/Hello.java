@@ -9,12 +9,14 @@ public class Hello {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hi");
-		//I'm master
+		//I'm master and featuez 2
 		
-		Stream.of("a1", "a2", "a3")
+		Stream.of("a1", "a2", "a3") //
 		.map(s -> s.substring(1))
 		.collect(Collectors.toList())
 		.forEach(System.out::println);
+		
+		// More of feature 2
 		
 		Arrays.asList("a1", "a2", "a3")
 			.stream()
